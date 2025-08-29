@@ -3,6 +3,7 @@ import { LucideIcon } from "lucide-react";
 // TypeScript interfaces
 export interface Product {
   emoji: string;
+  image?: string;
   title: string;
   description: string;
   status: string;

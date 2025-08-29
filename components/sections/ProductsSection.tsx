@@ -11,28 +11,76 @@ const ProductsSection: React.FC<SectionProps> = ({
 }) => {
   const products: Product[] = [
     {
+      image: "/images/products/ruscus.jpg",
       emoji: "🌺",
-      title: "Premium Alstroemeria",
+      title: "Ruscus",
       description:
-        "Vibrant pink blooms with striking yellow centers, perfect for elegant arrangements and special occasions.",
+        "Unique green flowers that add a touch of whimsy and charm to arrangements.",
       status: "Fresh Cut Available",
       gradient: "from-pink-50 to-yellow-50",
     },
     {
+      image: "/images/products/eryngium.jpg",
       emoji: "🌼",
-      title: "Button Chrysanthemums",
+      title: "Eryngium",
       description:
-        "Cheerful yellow pompom-style flowers that add warmth and texture to any floral display.",
+        "Striking blue flowers that add a touch of elegance and sophistication to any arrangement.",
       status: "Bulk Orders Available",
       gradient: "from-yellow-50 to-orange-50",
     },
     {
+      image: "/images/products/bupleurum.jpeg",
       emoji: "🌿",
-      title: "Fresh Eucalyptus",
+      title: "Bupleurum",
+      description:
+        "Unique green flowers that add a touch of whimsy and charm to arrangements.",
+      status: "Premium Quality",
+      gradient: "from-green-50 to-blue-50",
+    },
+    {
+      image: "/images/products/craspedia_bouquet.jpeg",
+      emoji: "🌺",
+      title: "Craspedia",
+      description:
+        "Bright yellow globes on sturdy stems, perfect for adding a pop of color and texture to arrangements.",
+      status: "Fresh Cut Available",
+      gradient: "from-pink-50 to-yellow-50",
+    },
+    {
+      image: "/images/products/ammi-visnaga.jpg",
+      emoji: "🌼",
+      title: "Ammi Visnaga",
+      description:
+        "Delicate white blooms with a lace-like appearance, perfect for adding texture and elegance to arrangements.",
+      status: "Bulk Orders Available",
+      gradient: "from-yellow-50 to-orange-50",
+    },
+    {
+      image: "/images/products/eucalyptus.jpeg",
+      emoji: "🌿",
+      title: "Eucalyptus",
       description:
         "Aromatic silver-green foliage perfect for creating stunning backdrops and natural arrangements.",
       status: "Premium Quality",
       gradient: "from-green-50 to-blue-50",
+    },
+    {
+      image: "/images/products/alstroemeria.jpeg",
+      emoji: "🌺",
+      title: "Premium Alstroemeria",
+      description:
+        "Luxurious blooms with intricate patterns, ideal for upscale arrangements.",
+      status: "Fresh Cut Available",
+      gradient: "from-pink-50 to-yellow-50",
+    },
+    {
+      image: "/images/products/agapanthus.jpg",
+      emoji: "🌼",
+      title: "Agapanthus",
+      description:
+        "Striking blue flowers that add a touch of elegance and sophistication to any arrangement.",
+      status: "Bulk Orders Available",
+      gradient: "from-yellow-50 to-orange-50",
     },
   ];
 

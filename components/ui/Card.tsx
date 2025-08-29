@@ -5,6 +5,8 @@ import {
   SustainabilityPractice,
 } from "@/lib/types";
 import { Leaf } from "lucide-react";
+import Image from "next/image";
+import { useState } from "react";
 
 const Card = {
   Base: ({
@@ -27,29 +29,50 @@ const Card = {
     </div>
   ),
 
-  Product: ({ emoji, title, description, status, gradient }: Product) => (
-    <Card.Base
-      gradient={gradient}
-      className="overflow-hidden transform hover:-translate-y-2"
-    >
-      <div
-        className={`h-64 bg-gradient-to-br ${gradient.replace(
-          "50",
-          "200"
-        )} flex items-center justify-center`}
+  Product: ({
+    image,
+    emoji,
+    title,
+    description,
+    status,
+    gradient,
+  }: Product) => {
+    const [imageError, setImageError] = useState(false);
+
+    return (
+      <Card.Base
+        gradient={gradient}
+        className="overflow-hidden transform hover:-translate-y-2"
       >
-        <div className="text-6xl">{emoji}</div>
-      </div>
-      <div className="p-6">
-        <h3 className="text-2xl font-bold text-gray-800 mb-3">{title}</h3>
-        <p className="text-gray-600 mb-4">{description}</p>
-        <div className="flex justify-between items-center">
-          <span className="text-blue-600 font-semibold">{status}</span>
-          <Leaf className="text-green-500" size={20} />
+        <div
+          className={`h-64 bg-gradient-to-br ${gradient.replace(
+            "50",
+            "200"
+          )} flex items-center justify-center relative`}
+        >
+          {image && !imageError ? (
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="object-cover"
+              onError={() => setImageError(true)}
+            />
+          ) : (
+            <div className="text-6xl">{emoji}</div>
+          )}
         </div>
-      </div>
-    </Card.Base>
-  ),
+        <div className="p-6">
+          <h3 className="text-2xl font-bold text-gray-800 mb-3">{title}</h3>
+          <p className="text-gray-600 mb-4">{description}</p>
+          <div className="flex justify-between items-center">
+            <span className="text-blue-600 font-semibold">{status}</span>
+            <Leaf className="text-green-500" size={20} />
+          </div>
+        </div>
+      </Card.Base>
+    );
+  },
 
   Feature: ({ icon, title, description }: Feature) => (
     <div className="text-center">

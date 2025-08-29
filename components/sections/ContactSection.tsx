@@ -18,7 +18,7 @@ const ContactSection: React.FC<SectionProps> = ({
     {
       icon: Phone,
       title: "Phone",
-      details: ["+254 (0) 712 345 678", "+254 (0) 734 567 890"],
+      details: ["+254 (0) 722 667 154", "+254 (0) 719 784 008"],
     },
     {
       icon: Mail,
@@ -160,7 +160,7 @@ const ContactSection: React.FC<SectionProps> = ({
                   Contact Info
                 </h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>+254 712 345 678</li>
+                  <li>+254 722 667 154</li>
                   <li>info@lamiflora.co.ke</li>
                   <li>Nyandarua County, Kenya</li>
                 </ul>
