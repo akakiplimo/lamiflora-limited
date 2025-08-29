@@ -59,11 +59,11 @@ const AboutSection: React.FC<SectionProps> = ({
                 About Lamiflora Limited
               </Typography.Heading2>
               <Typography.Body className="mb-6">
-                Founded with a passion for cultivating nature's most beautiful
-                creations, Lamiflora Limited has been at the forefront of
-                premium flower farming for over a decade. Our state-of-the-art
-                facilities and expert horticulturists ensure that every bloom
-                meets the highest standards of quality.
+                Founded with a passion for cultivating nature&apos;s most
+                beautiful creations, Lamiflora Limited has been at the forefront
+                of premium flower farming for over a decade. Our
+                state-of-the-art facilities and expert horticulturists ensure
+                that every bloom meets the highest standards of quality.
               </Typography.Body>
               <Typography.Body className="mb-8">
                 We specialize in growing a diverse range of flowers, from
@@ -95,7 +95,7 @@ const AboutSection: React.FC<SectionProps> = ({
                   <Typography.Heading3>Our Mission</Typography.Heading3>
                 </div>
                 <Typography.Body className="text-center">
-                  To bring joy and beauty to people's lives through our
+                  To bring joy and beauty to people&apos;s lives through our
                   carefully cultivated flowers, while maintaining the highest
                   standards of sustainability and environmental responsibility.
                 </Typography.Body>

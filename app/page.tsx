@@ -285,7 +285,7 @@ const LamifloraWebsite: React.FC = () => {
       }
     };
 
-    const handleTouchEnd = (e: TouchEvent): void => {
+    const handleTouchEnd = (): void => {
       // Reset touch tracking
       setTimeout(() => {
         isTouchNavigation = false;
@@ -309,7 +309,14 @@ const LamifloraWebsite: React.FC = () => {
       clearTimeout(bufferTimeout);
       clearTimeout(touchBufferTimeout);
     };
-  }, [currentSection, isTransitioning, updateScrollProgress]);
+  }, [
+    currentSection,
+    isTransitioning,
+    updateScrollProgress,
+    nextSection,
+    prevSection,
+    sections.length,
+  ]);
 
   return (
     <Container.Main>

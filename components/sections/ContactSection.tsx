@@ -74,7 +74,7 @@ const ContactSection: React.FC<SectionProps> = ({
             <Typography.Heading2>Get in Touch</Typography.Heading2>
             <Typography.Subtitle className="max-w-3xl mx-auto">
               Ready to bring the beauty of our premium flowers to your space?
-              We'd love to hear from you.
+              We&apos;d love to hear from you.
             </Typography.Subtitle>
           </div>
 
@@ -130,8 +130,9 @@ const ContactSection: React.FC<SectionProps> = ({
               <div className="col-span-1 md:col-span-2">
                 <Logo />
                 <Typography.Body className="mb-4 mt-4">
-                  Cultivating nature's finest blooms with passion, precision,
-                  and sustainable practices. From our farms to your heart.
+                  Cultivating nature&apos;s finest blooms with passion,
+                  precision, and sustainable practices. From our farms to your
+                  heart.
                 </Typography.Body>
                 <p className="text-sm text-gray-500">
                   © 2024 Lamiflora Limited. All rights reserved. Terms of

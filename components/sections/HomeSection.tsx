@@ -37,8 +37,8 @@ const HomeSection: React.FC<SectionProps> = ({
               <span className="text-blue-600">Lamiflora</span> Limited
             </Typography.Heading1>
             <Typography.Subtitle className="mb-8 max-w-3xl mx-auto">
-              Cultivating nature's finest blooms with passion, precision, and
-              sustainable practices. From our farms to your heart.
+              Cultivating nature&apos;s finest blooms with passion, precision,
+              and sustainable practices. From our farms to your heart.
             </Typography.Subtitle>
             <Button.Primary onClick={() => onNavigate?.(1)} className="mr-4">
               Explore Our Flowers
