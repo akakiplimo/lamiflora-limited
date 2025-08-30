@@ -17,7 +17,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       description:
         "Unique green flowers that add a touch of whimsy and charm to arrangements.",
       status: "Fresh Cut Available",
-      gradient: "from-pink-50 to-yellow-50",
+      gradient: "from-green-50 to-red-50",
     },
     {
       image: "/images/products/eryngium.jpg",
@@ -26,7 +26,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       description:
         "Striking blue flowers that add a touch of elegance and sophistication to any arrangement.",
       status: "Bulk Orders Available",
-      gradient: "from-yellow-50 to-orange-50",
+      gradient: "from-purple-50 to-blue-50",
     },
     {
       image: "/images/products/bupleurum.jpeg",
@@ -35,7 +35,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       description:
         "Unique green flowers that add a touch of whimsy and charm to arrangements.",
       status: "Premium Quality",
-      gradient: "from-green-50 to-blue-50",
+      gradient: "from-green-50 to-yellow-50",
     },
     {
       image: "/images/products/craspedia_bouquet.jpeg",
@@ -44,7 +44,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       description:
         "Bright yellow globes on sturdy stems, perfect for adding a pop of color and texture to arrangements.",
       status: "Fresh Cut Available",
-      gradient: "from-pink-50 to-yellow-50",
+      gradient: "from-yellow-50 to-orange-50",
     },
     {
       image: "/images/products/ammi-visnaga.jpg",
@@ -53,7 +53,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       description:
         "Delicate white blooms with a lace-like appearance, perfect for adding texture and elegance to arrangements.",
       status: "Bulk Orders Available",
-      gradient: "from-yellow-50 to-orange-50",
+      gradient: "from-green-50 to-white-50",
     },
     {
       image: "/images/products/eucalyptus.jpeg",
@@ -71,7 +71,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       description:
         "Luxurious blooms with intricate patterns, ideal for upscale arrangements.",
       status: "Fresh Cut Available",
-      gradient: "from-pink-50 to-yellow-50",
+      gradient: "from-pink-50 to-red-50",
     },
     {
       image: "/images/products/agapanthus.jpg",
@@ -80,7 +80,16 @@ const ProductsSection: React.FC<SectionProps> = ({
       description:
         "Striking blue flowers that add a touch of elegance and sophistication to any arrangement.",
       status: "Bulk Orders Available",
-      gradient: "from-yellow-50 to-orange-50",
+      gradient: "from-purple-50 to-blue-50",
+    },
+    {
+      image: "/images/products/scabosia.jpeg",
+      emoji: "🌼",
+      title: "Scabosia",
+      description:
+        "Unique flowers with a delicate appearance, perfect for adding a touch of elegance to arrangements.",
+      status: "Bulk Orders Available",
+      gradient: "from-red-50 to-orange-50",
     },
   ];
 
