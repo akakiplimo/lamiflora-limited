@@ -101,7 +101,7 @@ const LamifloraWebsite: React.FC = () => {
     let bufferTimeout: NodeJS.Timeout;
     let lastScrollDirection = 0;
 
-    const BUFFER_THRESHOLD = 150; // Amount of scroll needed to trigger transition
+    const BUFFER_THRESHOLD = 200; // Amount of scroll needed to trigger transition
     const BUFFER_DECAY_TIME = 800; // Time before buffer resets
 
     const resetBuffer = () => {
