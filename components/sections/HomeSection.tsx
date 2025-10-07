@@ -42,8 +42,7 @@ const HomeSection: React.FC<SectionProps> = ({
               <span className="text-blue-600">Lamiflora</span> Limited
             </Typography.Heading1>
             <Typography.Subtitle className="mb-8 max-w-2xl mx-auto text-center">
-              Cultivating nature&apos;s finest blooms with passion, precision,
-              and sustainable practices. From our farms to your heart.
+              Say it with flowers.
             </Typography.Subtitle>
             <div className="flex flex-col items-center">
               <Button.Primary onClick={() => onNavigate?.(1)} className="mb-4">
