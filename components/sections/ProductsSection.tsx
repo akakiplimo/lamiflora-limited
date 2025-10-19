@@ -98,7 +98,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       description:
         "Elegant green & white star-shaped flowers that bring a touch of sophistication to any bouquet.",
       status: "Bulk Orders Available",
-      gradient: "from-red-50 to-orange-50",
+      gradient: "from-green-50 to-white-50",
     },
   ];
 
