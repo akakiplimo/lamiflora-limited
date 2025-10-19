@@ -74,7 +74,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       gradient: "from-pink-50 to-red-50",
     },
     {
-      image: "/images/products/agapanthus.jpg",
+      image: "/images/products/agapanthus.jpeg",
       emoji: "🌼",
       title: "Agapanthus",
       description:
