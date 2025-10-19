@@ -20,7 +20,7 @@ const ProductsSection: React.FC<SectionProps> = ({
       gradient: "from-green-50 to-red-50",
     },
     {
-      image: "/images/products/eryngium.jpg",
+      image: "/images/products/eryngium.jpeg",
       emoji: "🌼",
       title: "Eryngium",
       description:
@@ -88,6 +88,15 @@ const ProductsSection: React.FC<SectionProps> = ({
       title: "Scabosia",
       description:
         "Unique flowers with a delicate appearance, perfect for adding a touch of elegance to arrangements.",
+      status: "Bulk Orders Available",
+      gradient: "from-red-50 to-orange-50",
+    },
+    {
+      image: "/images/products/ornithogalum.jpeg",
+      emoji: "🌼",
+      title: "Ornithogalum",
+      description:
+        "Elegant green & white star-shaped flowers that bring a touch of sophistication to any bouquet.",
       status: "Bulk Orders Available",
       gradient: "from-red-50 to-orange-50",
     },
